@@ -65,7 +65,7 @@
     --ring: 212.7 26.8% 83.9%;
   }
 }
- 
+
 @layer base {
   * {
     @apply border-border;
@@ -73,4 +73,23 @@
   body {
     @apply bg-background text-foreground;
   }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
+body, input, button {
+  font-family: 'Alata', sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #2d2d2d;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #a855f7;
+  border-radius: 10px;
 }
